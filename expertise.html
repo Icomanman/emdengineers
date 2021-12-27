@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css"
+      type="text/css">
+   <link href="styles.css" rel="stylesheet">
+   <title>E.M.D Civil & Structural</title>
+   <link rel="icon" href="./assets/favicon.icon" type="image/icon">
+   <meta charset="utf-8">
+   <meta content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar h4 emd-text" href="./index.html">
+         <img src="./assets/emd-inverted-logo-sq-resized-2021.png" alt="company logo" id="emd-logo">
+         <strong>
+            E.M.D Civil & Structural
+         </strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav justify-content-end">
+            <li class="nav-item active">
+               <a class="nav-link emd-menu " href="./about.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link emd-menu " href="./expertise.html">Expertise</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link emd-menu" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link emd-menu" href="https://www.linkedin.com/company/emd-civil-structural/">
+                  <i class="large linkedin icon"></i>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link emd-menu" href="https://www.facebook.com/emdengineers/">
+                  <i class="large facebook square icon"></i>
+               </a>
+            </li>
+         </ul>
+      </div>
+   </nav>
+
+   <section class="emd-bg" style="background: linear-gradient(rgba(255, 255, 255, 45%), 
+rgba(255, 255, 255, 45%)), url('./assets/brace.jpg'); ">
+
+      <main class="container">
+         <h4 class="display-4 emd-header">
+            Our Expertise
+         </h4>
+         <div class="emd-content">
+            <div class="row">
+               <div class="col">
+                  <div class="emd-card">
+                     <img src="./assets/code.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="h4 emd-card-title">Design Workflow Automation via APIs</h5>
+                        <p class="card-text">Software Programming,
+                           Design Workflow Automation via APIs using
+                           commercial engineering software programs
+                           such as STAAD API, Autodesk Robot API, ETABS API, etc</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="emd-card">
+                     <img src="./assets/robot-model.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="h4 emd-card-title">Structural Analysis and Design</h5>
+                        <p class="card-text">
+                           Building Structures:
+                           Residential and Commercial Developments
+                           Institutional, Hospitality and Recreational Facilities
+                           Warehouses and Industrial Complexes
+                           Civil and Non-Building Structures:
+                           Billboard and Signage Structures
+                           Retaining Walls
+                           Troughs, Tunnels and Bunkers</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row" style="min-height: 61.8px;">
+            </div>
+            <div class="row">
+               <div class="col">
+                  <div class="emd-card">
+                     <img src="./assets/25-sty-eq.gif" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="h4 emd-card-title">Seismic Engineering</h5>
+                        <p class="card-text">Seismic Engineering, Design and Retrofitting</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="emd-card">
+                     <img src="./assets/drawings.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="h4 emd-card-title">Value Engineering and Design Reviews</h5>
+                        <p class="card-text">Save from your project whether from direct materials and labor costs or
+                           project time.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+   </section>
+
+   <footer style="text-align: center; padding-top: 1%;">
+      <p class="display-5">
+         <a class="emd-text" href="./index.html">
+            E.M.D Civil & Structural Engineering Consultancy | All rights reserved &copy; 2021
+         </a>
+      </p>
+   </footer>
+   <script>
+      jQuery('button.navbar-toggler').bind('click', () => {
+         jQuery('#navbarNav').toggleClass('collapse');
+      });
+   </script>
+</body>
+
+</html>
